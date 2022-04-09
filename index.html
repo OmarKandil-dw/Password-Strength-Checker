@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Password Strength</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class="container">
+            <p>type your password</p>
+         <form>
+            <div class="pass">
+               <input onkeyup="myfunction()" type="password" placeholder="Type password">
+               <span class="showBtn">SHOW</span>
+            </div>
+            <div class="indicator">
+               <span class="weak"></span>
+               <span class="medium"></span>
+               <span class="strong"></span>
+            </div>
+            <div class="text"></div>
+         </form>
+      </div>
+   </body>
+   <script src="scrript.js"></script>
+</html> 
